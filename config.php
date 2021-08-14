@@ -1,0 +1,28 @@
+<?php
+
+ //Адрес базы данных
+ define('DBSERVER','localhost');
+
+ //Логин БД
+ define('DBUSER','root');
+
+ //Пароль БД
+ define('DBPASSWORD','');
+
+ //БД
+ define('DATABASE','reg');
+
+ //Префикс БД
+ define('DBPREFIX','bez_');
+
+ //Errors
+ define('ERROR_CONNECT','Немогу соеденится с БД');
+
+ //Errors
+ define('NO_DB_SELECT','Данная БД отсутствует на сервере');
+
+ //Адрес хоста сайта
+ define('HOST','http://'. $_SERVER['HTTP_HOST'] .'/');
+ 
+
+ ?>
